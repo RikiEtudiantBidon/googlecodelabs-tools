@@ -1,0 +1,10 @@
+{
+  "title": "420-425-RK: Programmation orienté objet 2",
+  "description": "Cette page a pour objectif de regrouper les capsules et travaux à réaliser pendant votre session virtuelle.",
+  "logoUrl": "/images/icons/e-learning-5.svg",
+  "category": ["425"],
+  "exclude": [
+    ".*-about$",
+    "^lang-.*"
+  ]
+}

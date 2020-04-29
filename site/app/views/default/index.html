@@ -99,7 +99,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <div id="mainToolbar" class="paper-header">
       <div class="site-width layout horizontal">
         <a href="/">
-          <img src="/images/logo.png" class="logo-devs" alt="Codelabs Logo">
+          <img src="/images/logos/info-blanc.png" class="logo-devs" alt="Codelabs Logo">
         </a>
         <div id="searchbar">
           <paper-input-container no-label-float>
@@ -116,16 +116,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <header id="banner" {% if view.id != 'default' -%}down{%- else %}down$="[[_toBoolean(selectedFilter)]]"{%- endif %}>
       <div class="site-width">
         {% if view.id == 'default' %}
-        <h2 class="banner-title">Welcome to Codelabs!</h2>
+        <h2 class="banner-title">420-425-RK: Programmation orienté objet 2</h2>
         <div class="banner-description"
              data-filter-selected$="{% raw %}[[_toBoolean(selectedFilter)]]{% endraw %}">
           <p class="banner-info">
-            Codelabs provide a guided, tutorial, hands-on
-            coding experience. Most codelabs will step you through the process
-            of building a small application, or adding a new feature to an
-            existing application.
-            <br>
-            <a href="https://github.com/googlecodelabs/tools">Codelab tools on GitHub</a>
+            Cette page vous permet d'accéder à la théorie, aux exercices et au travaux de vos cours d'informatique.
           </p>
         {%- else -%}
           <div class="banner-description">
@@ -146,14 +141,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         <div id="sortby">
           <paper-tabs selected="0" noink on-iron-activate="sortBy">
             <paper-tab>A-Z</paper-tab>
-            <paper-tab>Recent</paper-tab>
-            <paper-tab>Duration</paper-tab>
+            <paper-tab>dernière mise à jour</paper-tab>
+            <!-- <paper-tab>durée</paper-tab> -->
           </paper-tabs>
         </div>
 
+        <!-- 
         {% if view.id == 'default' %}
         <paper-dropdown-menu
-          label="Choose an event"
+          label="Choisir une classe"
           class="dropdown-filter"
           no-label-float
           noink no-animations
@@ -173,10 +169,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           </paper-listbox>
         </paper-dropdown-menu>
         {% endif %}
+        -->
 
         {%- if showcats -%}
         <paper-dropdown-menu
-          label="Filter by category"
+          label="Filtrer par catégorie"
           class="dropdown-filter"
           no-label-float
           noink no-animations
@@ -219,11 +216,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               <div class="description">{{codelab.title}}</div>
               <div class="card-duration">
                 <span>{%- if codelab.duration -%}{{codelab.duration}} min {%- endif -%}</span>
-                <span>{%- if codelab.updated -%}Updated {{codePrettyDate(codelab.updated)}}{%- endif -%}</span>
+                <span>{%- if codelab.updated -%}Mise à jour: {{codePrettyDate(codelab.updated)}}{%- endif -%}</span>
               </div>
               <div class="card-footer">
                 <div class="category-icon {{categoryClass(codelab, cat.level)}}-icon"></div>
-                <paper-button class="{{categoryClass(codelab, cat.level)}}-bg">Start</paper-button>
+                <paper-button class="{{categoryClass(codelab, cat.level)}}-bg">Démarrer</paper-button>
               </div>
             </a>
           {%- endif %}
@@ -236,29 +233,24 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     </main>
 
     <footer id="footer">
+      
       <div class="footer-wrapper site-width">
+        <a href="https://cegep-rimouski.qc.ca" target="_blank">
+          <img src="/images/logos/footer-cegep.png" alt="logo cégep">
+        </a>
         <div class="link-list">
-          <label>Connect</label>
+          <label>Liens utiles</label>
           <ul>
-            <li><a href="https://www.example.com/">Example</a></li>
+            <li><a href="https://cegep-rimouski.omnivox.ca/intr/">Omnivox</a></li>
+            <li><a href="https://github.com/">Github</a></li>
+            <li><a href="https://unity.com/fr">Unity</a></li>
           </ul>
         </div>
         <div class="link-list">
-          <label>Programs</label>
-          <ul>
-            <li><a href="https://www.example.com/">Example</a></li>
-          </ul>
-        </div>
-        <div class="link-list">
-          <label>Developer Consoles</label>
-          <ul>
-            <li><a href="https://www.example.com/">Example</a></li>
-          </ul>
-        </div>
-        <div class="link-list">
-          <label>Explore</label>
+          <label>Support</label>
            <ul>
-            <li><a href="https://www.example.com/">Example</a></li>
+            <li><a href="https://hangouts.google.com/">Rejoindre l'enseignant</a></li>
+            <li><a href="https://docs.microsoft.com/fr-ca/dotnet/">Documentation .NET</a></li>
           </ul>
         </div>
       </div>
@@ -267,9 +259,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <div class="footerbar">
       <div class="site-width layout horizontal center justified">
         <span>
-          <a href="https://example.com">Terms</a>
-          &nbsp; | &nbsp;
-          <a href="https://example.com">Privacy</a>
+          &nbsp;
         </span>
       </div>
     </div>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Code Application</title><g id="Code_Application" data-name="Code Application"><path d="M9.18,16.38a.5.5,0,1,0,.64-.77L7.28,13.5l2.54-2.12a.5.5,0,1,0-.64-.77l-3,2.5a.5.5,0,0,0,0,.77Z" style="fill:#303c42"/><path d="M14.12,16.32a.5.5,0,0,0,.7.06l3-2.5a.5.5,0,0,0,0-.77l-3-2.5a.5.5,0,1,0-.64.77l2.54,2.12-2.54,2.12A.5.5,0,0,0,14.12,16.32Z" style="fill:#303c42"/><path d="M10.3,17.46a.49.49,0,0,0,.2,0,.5.5,0,0,0,.46-.3l3-7A.5.5,0,0,0,13,9.8l-3,7A.5.5,0,0,0,10.3,17.46Z" style="fill:#303c42"/><path d="M21,1H3A2,2,0,0,0,1,3V21a2,2,0,0,0,2,2H21a2,2,0,0,0,2-2V3A2,2,0,0,0,21,1ZM7.5,3a.5.5,0,1,1-.5.5A.5.5,0,0,1,7.5,3Zm-2,0a.5.5,0,1,1-.5.5A.5.5,0,0,1,5.5,3Zm-2,0a.5.5,0,1,1-.5.5A.5.5,0,0,1,3.5,3ZM21,21H3V6H21Z" style="fill:#303c42"/></g>
+	<metadata>
+		<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+			<rdf:Description about="https://iconscout.com/legal#licenses" dc:title="app; code; window; coding; program; programing" dc:description="app; code; window; coding; program; programing" dc:publisher="Iconscout" dc:date="2017-02-21" dc:format="image/svg+xml" dc:language="en">
+				<dc:creator>
+					<rdf:Bag>
+						<rdf:li>Alpár - Etele Méder</rdf:li>
+					</rdf:Bag>
+				</dc:creator>
+			</rdf:Description>
+		</rdf:RDF>
+    </metadata></svg>
